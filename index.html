@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tic-Tac-Toe</h1>
+        <div class="game">
+            <div class="message">Player <span id="current-player">X</span>'s turn</div>
+            <div id="board" class="board">
+                <!-- The game board will be generated here -->
+            </div>
+            <button id="reset" class="reset-button">New Game</button>
+        </div>
+    </div>
+    <div class="modal" id="winner-modal">
+        <div class="modal-content">
+            <p id="winner-text"></p>
+            <button class="new-game-button">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
